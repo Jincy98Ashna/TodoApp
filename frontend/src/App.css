@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://thumbs.dreamstime.com/b/desk-notepad-to-do-list-pens-light-pink-background-top-view-desk-notepad-to-do-list-pens-light-pink-125175912.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the background image */
+  width: 100%;
+  height: fit-content;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh; /* Ensures .App covers the full viewport height */
+  
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+ 
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  
+}
+
+form {
+  margin-bottom: 20px;
+  
+ 
+}
+
+form input, form select {
+  margin-right: 10px;
+ 
+}
